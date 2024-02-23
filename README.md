@@ -5,20 +5,17 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+* Ruby version - 3.3.0
+* Rails version - 7
+* react with vite - 18
 
-* System dependencies
+Fetch the main branch:
 
-* Configuration
+-install ruby-3.3.0 with either rvm or rbenv
+-install bundler
+-run bundle install 
+-rails s to run rails server
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+-go to frontend folder 
+- run npm install
+- to start frontend server run npm run dev
